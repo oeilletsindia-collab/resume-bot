@@ -177,7 +177,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # 💰 Free limit
         if users[uid]["count"] >= 2:
             await update.message.reply_text(
-                f"❌ Free limit over.\n\nPay ₹99 here:\nhttps://rzp.io/l/yourlink\n\n"
+                f"❌ Free limit over.\n\nPay ₹99 here:\nhttps://rzp.io/rzp/ZwNJ3Tsh\n\n"
                 f"📸 Send payment screenshot.\n\n"
                f"🆔 Your User ID: {uid}\n\n"
                f"Then wait for approval."   
