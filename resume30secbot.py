@@ -180,13 +180,13 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"❌ Free limit over.\n\nPay ₹99 here:\nhttps://rzp.io/l/yourlink\n\n"
                 f"📸 Send payment screenshot.\n\n"
                f"🆔 Your User ID: {uid}\n\n"
-               f"Then wait for approval."
+               f"Then wait for approval."   
             )
             return
         # Paid limit
         if users[uid].get("paid", False) and users[uid]["count"] >= 100:
            await update.message.reply_text(
-        "⚠️ You have reached your 100 resume limit.\n\nPay ₹99 here:\nhttps://rzp.io/l/yourlink\n\n"
+        "⚠️ You have reached your 100 resume limit.\n\nPay ₹99 here:\nhttps://rzp.io/rzp/ZwNJ3Tsh\n\n"
                 f"📸 Send payment screenshot.\n\n"
                f"🆔 Your User ID: {uid}\n\n"
                f"Then wait for approval."
