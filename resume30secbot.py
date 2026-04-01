@@ -178,6 +178,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if users[uid]["count"] >= 2:
             await update.message.reply_text(
                 f"❌ Free limit over.\n\nPay ₹99 here:\nhttps://rzp.io/rzp/ZwNJ3Tsh\n\n"
+                f"⚠️ If amount is not coming in PhonePe then open link in Chrome or other Browser:\n\n"
                 f"📸 Send payment screenshot.\n\n"
                f"🆔 Your User ID: {uid}\n\n"
                f"Then wait for approval."   
