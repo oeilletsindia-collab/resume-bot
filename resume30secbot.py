@@ -22,6 +22,13 @@ def generate_resume(data):
     prompt = f"""
 Create a professional ATS-friendly resume.
 
+STRICT RULES:
+- Do NOT add any introduction like "Sure" or "Here is"
+- Do NOT add explanations
+- Output ONLY the resume content
+- Start directly with the person's NAME
+- Use clean formatting
+
 Name: {data['name']}
 Contact: {data['contact']}
 Skills: {data['skills']}
